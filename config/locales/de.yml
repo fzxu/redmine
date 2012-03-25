@@ -165,8 +165,8 @@ de:
   notice_account_wrong_password: Falsches Kennwort.
   notice_account_register_done: Konto wurde erfolgreich angelegt.
   notice_account_unknown_email: Unbekannter Benutzer.
-  notice_can_t_change_password: Dieses Konto verwendet eine externe Authentifizierungs-Quelle. Unmöglich, das Kennwort zu ändern.
-  notice_account_lost_email_sent: Eine E-Mail mit Anweisungen, ein neues Kennwort zu wählen, wurde Ihnen geschickt.
+  notice_can_t_change_password: "Dieses Konto verwendet eine externe Authentifizierungs-Quelle. Unmöglich, das Kennwort zu ändern."
+  notice_account_lost_email_sent: "Eine E-Mail mit Anweisungen, ein neues Kennwort zu wählen, wurde Ihnen geschickt."
   notice_account_activated: Ihr Konto ist aktiviert. Sie können sich jetzt anmelden.
   notice_successful_create: Erfolgreich angelegt
   notice_successful_update: Erfolgreich aktualisiert.
@@ -174,7 +174,7 @@ de:
   notice_successful_connection: Verbindung erfolgreich.
   notice_file_not_found: Anhang existiert nicht oder ist gelöscht worden.
   notice_locking_conflict: Datum wurde von einem anderen Benutzer geändert.
-  notice_not_authorized: Sie sind nicht berechtigt, auf diese Seite zuzugreifen.
+  notice_not_authorized: "Sie sind nicht berechtigt, auf diese Seite zuzugreifen."
   notice_email_sent: "Eine E-Mail wurde an %{value} gesendet."
   notice_email_error: "Beim Senden einer E-Mail ist ein Fehler aufgetreten (%{value})."
   notice_feeds_access_key_reseted: Ihr Atom-Zugriffsschlüssel wurde zurückgesetzt.
@@ -204,7 +204,7 @@ de:
   error_workflow_copy_source: Bitte wählen Sie einen Quell-Tracker und eine Quell-Rolle.
   error_workflow_copy_target: Bitte wählen Sie die Ziel-Tracker und -Rollen.
   error_unable_delete_issue_status: "Der Ticket-Status konnte nicht gelöscht werden."
-  error_unable_to_connect: Fehler beim Verbinden (%{value})
+  error_unable_to_connect: "Fehler beim Verbinden (%{value})"
   warning_attachments_not_saved: "%{count} Datei(en) konnten nicht gespeichert werden."
   
   mail_subject_lost_password: "Ihr %{value} Kennwort"
@@ -362,7 +362,7 @@ de:
   setting_repository_log_display_limit: Maximale Anzahl anzuzeigender Revisionen in der Historie einer Datei
   setting_openid: Erlaube OpenID-Anmeldung und -Registrierung
   setting_password_min_length: Mindestlänge des Kennworts
-  setting_new_project_user_role_id: Rolle, die einem Nicht-Administrator zugeordnet wird, der ein Projekt erstellt
+  setting_new_project_user_role_id: "Rolle, die einem Nicht-Administrator zugeordnet wird, der ein Projekt erstellt"
   setting_default_projects_modules: Standardmäßig aktivierte Module für neue Projekte
   setting_issue_done_ratio: Berechne den Ticket-Fortschritt mittels
   setting_issue_done_ratio_issue_field: Ticket-Feld %-erledigt
@@ -559,8 +559,8 @@ de:
   label_closed_issues: geschlossen
   label_closed_issues_plural: geschlossen
   label_x_open_issues_abbr_on_total:
-    zero:  0 offen / %{total}
-    one:   1 offen / %{total}
+    zero:  "0 offen / %{total}"
+    one:   "1 offen / %{total}"
     other: "%{count} offen / %{total}"
   label_x_open_issues_abbr:
     zero:  0 offen
@@ -636,7 +636,7 @@ de:
   label_tag: Markierung
   label_revision: Revision
   label_revision_plural: Revisionen
-  label_revision_id: Revision %{value}
+  label_revision_id: "Revision %{value}"
   label_associated_revisions: Zugehörige Revisionen
   label_added: hinzugefügt
   label_modified: geändert
@@ -772,7 +772,7 @@ de:
   label_sort: Sortierung
   label_ascending: Aufsteigend
   label_descending: Absteigend
-  label_date_from_to: von %{start} bis %{end}
+  label_date_from_to: "von %{start} bis %{end}"
   label_wiki_content_added: Die Wiki-Seite wurde erfolgreich hinzugefügt.
   label_wiki_content_updated: Die Wiki-Seite wurde erfolgreich aktualisiert.
   label_group: Gruppe
@@ -788,10 +788,10 @@ de:
   label_copy_source: Quelle
   label_copy_target: Ziel
   label_copy_same_as_target: So wie das Ziel
-  label_display_used_statuses_only: Zeige nur Status an, die von diesem Tracker verwendet werden
+  label_display_used_statuses_only: "Zeige nur Status an, die von diesem Tracker verwendet werden"
   label_api_access_key: API-Zugriffsschlüssel
   label_missing_api_access_key: Der API-Zugriffsschlüssel fehlt.
-  label_api_access_key_created_on: Der API-Zugriffsschlüssel wurde vor %{value} erstellt
+  label_api_access_key_created_on: "Der API-Zugriffsschlüssel wurde vor %{value} erstellt"
   label_profile: Profil
   label_subtask_plural: Unteraufgaben
   label_project_copy_notifications: Sende Mailbenachrichtigungen beim Kopieren des Projekts.
@@ -853,10 +853,10 @@ de:
 
   field_active: Aktiv
   
-  text_select_mail_notifications: Bitte wählen Sie die Aktionen aus, für die eine Mailbenachrichtigung gesendet werden soll.
-  text_regexp_info: z. B. ^[A-Z0-9]+$
+  text_select_mail_notifications: "Bitte wählen Sie die Aktionen aus, für die eine Mailbenachrichtigung gesendet werden soll."
+  text_regexp_info: "z. B. ^[A-Z0-9]+$"
   text_min_max_length_info: 0 heißt keine Beschränkung
-  text_project_destroy_confirmation: Sind Sie sicher, dass sie das Projekt löschen wollen?
+  text_project_destroy_confirmation: "Sind Sie sicher, dass sie das Projekt löschen wollen?"
   text_subprojects_destroy_warning: "Dessen Unterprojekte (%{value}) werden ebenfalls gelöscht."
   text_workflow_edit: Workflow zum Bearbeiten auswählen
   text_are_you_sure: Sind Sie sicher?
@@ -865,9 +865,9 @@ de:
   text_journal_set_to: "%{label} wurde auf %{value} gesetzt"
   text_journal_deleted: "%{label} %{old} wurde gelöscht"
   text_journal_added: "%{label} %{value} wurde hinzugefügt"
-  text_tip_issue_begin_day: Aufgabe, die an diesem Tag beginnt
-  text_tip_issue_end_day: Aufgabe, die an diesem Tag endet
-  text_tip_issue_begin_end_day: Aufgabe, die an diesem Tag beginnt und endet
+  text_tip_issue_begin_day: "Aufgabe, die an diesem Tag beginnt"
+  text_tip_issue_end_day: "Aufgabe, die an diesem Tag endet"
+  text_tip_issue_begin_end_day: "Aufgabe, die an diesem Tag beginnt und endet"
   text_project_identifier_info: 'Kleinbuchstaben (a-z), Ziffern und Bindestriche erlaubt.<br />Einmal gespeichert, kann die Kennung nicht mehr geändert werden.'
   text_caracters_maximum: "Max. %{count} Zeichen."
   text_caracters_minimum: "Muss mindestens %{count} Zeichen lang sein."
@@ -893,7 +893,7 @@ de:
   text_file_repository_writable: Verzeichnis für Dateien beschreibbar
   text_plugin_assets_writable: Verzeichnis für Plugin-Assets beschreibbar
   text_rmagick_available: RMagick verfügbar (optional)
-  text_destroy_time_entries_question: Es wurden bereits %{hours} Stunden auf dieses Ticket gebucht. Was soll mit den Aufwänden geschehen?
+  text_destroy_time_entries_question: "Es wurden bereits %{hours} Stunden auf dieses Ticket gebucht. Was soll mit den Aufwänden geschehen?"
   text_destroy_time_entries: Gebuchte Aufwände löschen
   text_assign_time_entries_to_project: Gebuchte Aufwände dem Projekt zuweisen
   text_reassign_time_entries: 'Gebuchte Aufwände diesem Ticket zuweisen:'
@@ -951,9 +951,9 @@ de:
   field_visible: Sichtbar
   setting_emails_header: E-Mail Betreffzeile
   setting_commit_logtime_activity_id: Aktivität für die Zeiterfassung
-  text_time_logged_by_changeset: Angewendet in Changeset %{value}.
+  text_time_logged_by_changeset: "Angewendet in Changeset %{value}."
   setting_commit_logtime_enabled: Aktiviere Zeitlogging
-  notice_gantt_chart_truncated: Die Grafik ist unvollständig, da das Maximum der anzeigbaren Aufgaben überschritten wurde (%{max})
+  notice_gantt_chart_truncated: "Die Grafik ist unvollständig, da das Maximum der anzeigbaren Aufgaben überschritten wurde (%{max})"
   setting_gantt_items_limit: Maximale Anzahl von Aufgaben die im Gantt-Chart angezeigt werden.
   field_warn_on_leaving_unsaved: vor dem Verlassen einer Seite mit ungesichertem Text im Editor warnen
   text_warn_on_leaving_unsaved: Die aktuellen Änderungen gehen verloren, wenn Sie diese Seite verlassen.
@@ -978,7 +978,7 @@ de:
   field_is_private: Privat
   permission_set_issues_private: Tickets privat oder öffentlich markieren
   label_issues_visibility_public: Alle öffentlichen Tickets
-  text_issues_destroy_descendants_confirmation: Dies wird auch %{count} Unteraufgabe/n löschen.
+  text_issues_destroy_descendants_confirmation: "Dies wird auch %{count} Unteraufgabe/n löschen."
   field_commit_logs_encoding: Kodierung der Commit-Log-Meldungen
   field_scm_path_encoding: Pfad Kodierung
   text_scm_path_encoding_note: "Standard: UTF-8"
@@ -986,18 +986,18 @@ de:
   field_root_directory: Wurzelverzeichnis
   field_cvs_module: Modul
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Lokales repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Lokales repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Kommando
   text_scm_command_version: Version
   label_git_report_last_commit: Bericht des letzten Commits für Dateien und Verzeichnisse
   text_scm_config: Die SCM-Kommandos können in der in config/configuration.yml konfiguriert werden. Redmine muss anschließend neu gestartet werden.
   text_scm_command_not_available: Scm Kommando ist nicht verfügbar. Bitte prüfen Sie die Einstellungen im Administrationspanel.
 
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
 
   description_filter: Filter
   description_search: Suchfeld
@@ -1026,4 +1026,4 @@ de:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

@@ -170,7 +170,7 @@ bg:
   notice_unable_delete_time_entry: Невъзможност за изтриване на запис на time log.
   notice_issue_done_ratios_updated: Обновен процент на завършените задачи.
   notice_gantt_chart_truncated: Мрежовият график е съкратен, понеже броят на обектите, които могат да бъдат показани е твърде голям (%{max})
-  notice_issue_successful_create: Задача %{id} е създадена.
+  notice_issue_successful_create: "Задача %{id} е създадена."
 
   error_can_t_load_default_data: "Грешка при зареждане на примерната информация: %{value}"
   error_scm_not_found: Несъществуващ обект в хранилището.
@@ -189,8 +189,8 @@ bg:
   error_workflow_copy_source: Моля изберете source тракер или роля
   error_workflow_copy_target: Моля изберете тракер(и) и роля (роли).
   error_unable_delete_issue_status: Невъзможност за изтриване на състояние на задача
-  error_unable_to_connect: Невъзможност за свързване с (%{value})
-  error_attachment_too_big: Този файл не може да бъде качен, понеже надхвърля максималната възможна големина (%{max_size})
+  error_unable_to_connect: "Невъзможност за свързване с (%{value})"
+  error_attachment_too_big: "Този файл не може да бъде качен, понеже надхвърля максималната възможна големина (%{max_size})"
   warning_attachments_not_saved: "%{count} файла не бяха записани."
 
   mail_subject_lost_password: "Вашата парола (%{value})"
@@ -204,9 +204,9 @@ bg:
   mail_subject_reminder: "%{count} задачи с краен срок с следващите %{days} дни"
   mail_body_reminder: "%{count} задачи, назначени на вас са с краен срок в следващите %{days} дни:"
   mail_subject_wiki_content_added: "Wiki страницата '%{id}' беше добавена"
-  mail_body_wiki_content_added: Wiki страницата '%{id}' беше добавена от %{author}.
+  mail_body_wiki_content_added: "Wiki страницата '%{id}' беше добавена от %{author}."
   mail_subject_wiki_content_updated: "Wiki страницата '%{id}' беше обновена"
-  mail_body_wiki_content_updated: Wiki страницата '%{id}' беше обновена от %{author}.
+  mail_body_wiki_content_updated: "Wiki страницата '%{id}' беше обновена от %{author}."
 
   gui_validation_error: 1 грешка
   gui_validation_error_plural: "%{count} грешки"
@@ -574,8 +574,8 @@ bg:
   label_closed_issues: затворена
   label_closed_issues_plural: затворени
   label_x_open_issues_abbr_on_total:
-    zero:  0 отворени / %{total}
-    one:   1 отворена / %{total}
+    zero:  "0 отворени / %{total}"
+    one:   "1 отворена / %{total}"
     other: "%{count} отворени / %{total}"
   label_x_open_issues_abbr:
     zero:  0 отворени
@@ -653,7 +653,7 @@ bg:
   label_tag: Версия
   label_revision: Ревизия
   label_revision_plural: Ревизии
-  label_revision_id: Ревизия %{value}
+  label_revision_id: "Ревизия %{value}"
   label_associated_revisions: Асоциирани ревизии
   label_added: добавено
   label_modified: променено
@@ -795,7 +795,7 @@ bg:
   label_sort: Сортиране
   label_ascending: Нарастващ
   label_descending: Намаляващ
-  label_date_from_to: От %{start} до %{end}
+  label_date_from_to: "От %{start} до %{end}"
   label_wiki_content_added: Wiki страница беше добавена
   label_wiki_content_updated: Wiki страница беше обновена
   label_group: Група
@@ -814,7 +814,7 @@ bg:
   label_display_used_statuses_only: Показване само на състоянията, използвани от този тракер
   label_api_access_key: API ключ за достъп
   label_missing_api_access_key: Липсващ API ключ
-  label_api_access_key_created_on: API ключ за достъп е създаден преди %{value}
+  label_api_access_key_created_on: "API ключ за достъп е създаден преди %{value}"
   label_profile: Профил
   label_subtask_plural: Подзадачи
   label_project_copy_notifications: Изпращане на Send e-mail известия по време на копирането на проекта
@@ -890,7 +890,7 @@ bg:
   field_active: Активен
 
   text_select_mail_notifications: Изберете събития за изпращане на e-mail.
-  text_regexp_info: пр. ^[A-Z0-9]+$
+  text_regexp_info: "пр. ^[A-Z0-9]+$"
   text_min_max_length_info: 0 - без ограничения
   text_project_destroy_confirmation: Сигурни ли сте, че искате да изтриете проекта и данните в него?
   text_subprojects_destroy_warning: "Неговите подпроекти: %{value} също ще бъдат изтрити."
@@ -926,7 +926,7 @@ bg:
   text_status_changed_by_changeset: "Приложено с ревизия %{value}."
   text_time_logged_by_changeset: Приложено в ревизия %{value}.
   text_issues_destroy_confirmation: 'Сигурни ли сте, че искате да изтриете избраните задачи?'
-  text_issues_destroy_descendants_confirmation: Тази операция ще премахне и %{count} подзадача(и).
+  text_issues_destroy_descendants_confirmation: "Тази операция ще премахне и %{count} подзадача(и)."
   text_time_entries_destroy_confirmation: Сигурен ли сте, че изтриете избраните записи за изразходвано време?
   text_select_project_modules: 'Изберете активните модули за този проект:'
   text_default_administrator_account_changed: Сменен фабричния администраторски профил
@@ -944,7 +944,7 @@ bg:
   text_repository_usernames_mapping: "Изберете или променете потребителите в Redmine, съответстващи на потребителите в дневника на хранилището (repository).\nПотребителите с еднакви имена в Redmine и хранилищата се съвместяват автоматично."
   text_diff_truncated: '... Този diff не е пълен, понеже е надхвърля максималния размер, който може да бъде показан.'
   text_custom_field_possible_values_info: 'Една стойност на ред'
-  text_wiki_page_destroy_question: Тази страница има %{descendants} страници деца и descendant(s). Какво желаете да правите?
+  text_wiki_page_destroy_question: "Тази страница има %{descendants} страници деца и descendant(s). Какво желаете да правите?"
   text_wiki_page_nullify_children: Запазване на тези страници като коренни страници
   text_wiki_page_destroy_children: Изтриване на страниците деца и всички техни descendants
   text_wiki_page_reassign_children: Преназначаване на страниците деца на тази родителска страница
@@ -953,8 +953,8 @@ bg:
   text_zoom_out: Намаляване
   text_warn_on_leaving_unsaved: Страницата съдържа незаписано съдържание, което може да бъде загубено, ако я напуснете.
   text_scm_path_encoding_note: "По подразбиране: UTF-8"
-  text_git_repository_note: Празно и локално хранилище (например /gitrepo, c:\gitrepo)
-  text_mercurial_repository_note: Локално хранилище (например /hgrepo, c:\hgrepo)
+  text_git_repository_note: "Празно и локално хранилище (например /gitrepo, c:\\gitrepo)"
+  text_mercurial_repository_note: "Локално хранилище (например /hgrepo, c:\\hgrepo)"
   text_scm_command: SCM команда
   text_scm_command_version: Версия
   text_scm_config: Можете да конфигурирате SCM командите в config/configuration.yml. За да активирате промените, рестартирайте Redmine.

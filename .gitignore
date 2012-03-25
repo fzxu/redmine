@@ -27,4 +27,4 @@
 /.bundle
 /Gemfile.lock
 /Gemfile.local
-
+.DS_Store

@@ -454,8 +454,8 @@ pt-BR:
   label_closed_issues: Fechada
   label_closed_issues_plural: Fechadas
   label_x_open_issues_abbr_on_total:
-    zero:  0 aberta / %{total}
-    one:   1 aberta / %{total}
+    zero:  "0 aberta / %{total}"
+    one:   "1 aberta / %{total}"
     other: "%{count} abertas / %{total}"
   label_x_open_issues_abbr:
     zero:  0 aberta
@@ -834,10 +834,10 @@ pt-BR:
   label_descending: Descendente
   label_sort: Ordenar
   label_ascending: Ascendente
-  label_date_from_to: De %{start} até %{end}
+  label_date_from_to: "De %{start} até %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Esta página tem %{descendants} página(s) filha(s) e descendente(s). O que você quer fazer?
+  text_wiki_page_destroy_question: "Esta página tem %{descendants} página(s) filha(s) e descendente(s). O que você quer fazer?"
   text_wiki_page_reassign_children: Reatribuir páginas filhas para esta página pai
   text_wiki_page_nullify_children: Manter as páginas filhas como páginas raízes
   text_wiki_page_destroy_children: Excluir páginas filhas e todas suas descendentes
@@ -846,9 +846,9 @@ pt-BR:
   mail_subject_wiki_content_updated: "A página wiki '%{id}' foi atualizada"
   label_wiki_content_added: Página wiki adicionada
   mail_subject_wiki_content_added: "A página wiki '%{id}' foi adicionada"
-  mail_body_wiki_content_added: A página wiki '%{id}' foi adicionada por %{author}.
+  mail_body_wiki_content_added: "A página wiki '%{id}' foi adicionada por %{author}."
   label_wiki_content_updated: Página wiki atualizada
-  mail_body_wiki_content_updated: A página wiki '%{id}' foi atualizada por %{author}.
+  mail_body_wiki_content_updated: "A página wiki '%{id}' foi atualizada por %{author}."
   permission_add_project: Criar projeto
   setting_new_project_user_role_id: Papel atribuído a um usuário não-administrador que cria um projeto
   label_view_all_revisions: Ver todas as revisões
@@ -897,10 +897,10 @@ pt-BR:
   field_watcher: Observador
   permission_view_issues: Ver tarefas
   label_display_used_statuses_only: Somente exibir situações que são usadas por este tipo de tarefa
-  label_revision_id: Revisão %{value}
+  label_revision_id: "Revisão %{value}"
   label_api_access_key: Chave de acesso a API
   button_show: Exibir
-  label_api_access_key_created_on: Chave de acesso a API criado a %{value} atrás
+  label_api_access_key_created_on: "Chave de acesso a API criado a %{value} atrás"
   label_feeds_access_key: Chave de acesso ao RSS
   notice_api_access_key_reseted: Sua chave de acesso a API foi redefinida.
   setting_rest_api_enabled: Habilitar REST web service
@@ -927,7 +927,7 @@ pt-BR:
   label_subtask_plural: Subtarefas
   label_project_copy_notifications: Enviar notificações por e-mail ao copiar projeto
   error_can_not_delete_custom_field: Não foi possível excluir o campo personalizado
-  error_unable_to_connect: Não foi possível conectar (%{value})
+  error_unable_to_connect: "Não foi possível conectar (%{value})"
   error_can_not_remove_role: Este papel está em uso e não pode ser excluído.
   error_can_not_delete_tracker: Este tipo de tarefa está atribuído a alguma(s) tarefa(s) e não pode ser excluído.
   field_principal: Principal
@@ -956,9 +956,9 @@ pt-BR:
   field_visible: Visível
   setting_emails_header: Cabeçalho do e-mail
   setting_commit_logtime_activity_id: Atividade para registrar horas
-  text_time_logged_by_changeset: Aplicado no changeset %{value}.
+  text_time_logged_by_changeset: "Aplicado no changeset %{value}."
   setting_commit_logtime_enabled: Habilitar registro de horas
-  notice_gantt_chart_truncated: O gráfico foi cortado por exceder o tamanho máximo de linhas que podem ser exibidas (%{max})
+  notice_gantt_chart_truncated: "O gráfico foi cortado por exceder o tamanho máximo de linhas que podem ser exibidas (%{max})"
   setting_gantt_items_limit: Número máximo de itens exibidos no gráfico gatt
   field_warn_on_leaving_unsaved: Alertar-me ao sair de uma página sem salvar o texto
   text_warn_on_leaving_unsaved: A página atual contem texto que não foi salvo e será perdido se você sair desta página.
@@ -981,7 +981,7 @@ pt-BR:
   field_is_private: Privado
   permission_set_issues_private: Alterar tarefas para públicas ou privadas
   label_issues_visibility_public: Todas as tarefas não privadas
-  text_issues_destroy_descendants_confirmation: Isto também irá excluir %{count} subtarefa(s).
+  text_issues_destroy_descendants_confirmation: "Isto também irá excluir %{count} subtarefa(s)."
   field_commit_logs_encoding: Codificação das mensagens de commit
   field_scm_path_encoding: Codificação do caminho
   text_scm_path_encoding_note: "Padrão: UTF-8"
@@ -995,11 +995,11 @@ pt-BR:
   label_git_report_last_commit: Relatar última alteração para arquivos e diretórios
   text_scm_config: Você pode configurar seus comandos de versionamento em config/configurations.yml. Por favor reinicie a aplicação após alterá-lo.
   text_scm_command_not_available: Comando de versionamento não disponível. Por favor verifique as configurações no painel de administração.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
 
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Escopo da pesquisa
@@ -1028,4 +1028,4 @@ pt-BR:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

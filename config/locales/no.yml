@@ -414,8 +414,8 @@
   label_closed_issues: lukket
   label_closed_issues_plural: lukkede
   label_x_open_issues_abbr_on_total:
-    zero:  0 åpne / %{total}
-    one:   1 åpen / %{total}
+    zero:  "0 åpne / %{total}"
+    one:   "1 åpen / %{total}"
     other: "%{count} åpne / %{total}"
   label_x_open_issues_abbr:
     zero:  0 åpne
@@ -798,10 +798,10 @@
   label_descending: Synkende
   label_sort: Sorter
   label_ascending: Stigende
-  label_date_from_to: Fra %{start} til %{end}
+  label_date_from_to: "Fra %{start} til %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Denne siden har %{descendants} underside(r). Hva ønsker du å gjøre?
+  text_wiki_page_destroy_question: "Denne siden har %{descendants} underside(r). Hva ønsker du å gjøre?"
   text_wiki_page_reassign_children: Tilknytt undersider til denne overordnede siden
   text_wiki_page_nullify_children: Behold undersider som rotsider
   text_wiki_page_destroy_children: Slett undersider og alle deres underliggende sider
@@ -810,9 +810,9 @@
   mail_subject_wiki_content_updated: "Wiki-side '%{id}' er oppdatert"
   label_wiki_content_added: Wiki-side opprettet
   mail_subject_wiki_content_added: "Wiki-side '%{id}' er opprettet"
-  mail_body_wiki_content_added: Wiki-siden '%{id}' ble opprettet av %{author}.
+  mail_body_wiki_content_added: "Wiki-siden '%{id}' ble opprettet av %{author}."
   label_wiki_content_updated: Wiki-side oppdatert
-  mail_body_wiki_content_updated: Wiki-siden '%{id}' ble oppdatert av %{author}.
+  mail_body_wiki_content_updated: "Wiki-siden '%{id}' ble oppdatert av %{author}."
   permission_add_project: Opprett prosjekt
   setting_new_project_user_role_id: Rolle gitt en ikke-administratorbruker som oppretter et prosjekt
   label_view_all_revisions: Se alle revisjoner
@@ -862,9 +862,9 @@
   setting_start_of_week: Start kalender på
   permission_view_issues: Se på saker
   label_display_used_statuses_only: Vis kun statuser som brukes av denne sakstypen
-  label_revision_id: Revision %{value}
+  label_revision_id: "Revision %{value}"
   label_api_access_key: API tilgangsnøkkel
-  label_api_access_key_created_on: API tilgangsnøkkel opprettet for %{value} siden
+  label_api_access_key_created_on: "API tilgangsnøkkel opprettet for %{value} siden"
   label_feeds_access_key: RSS tilgangsnøkkel
   notice_api_access_key_reseted: Din API tilgangsnøkkel ble resatt.
   setting_rest_api_enabled: Aktiver REST webservice
@@ -891,7 +891,7 @@
   label_subtask_plural: Undersaker
   label_project_copy_notifications: Send epost-varslinger under prosjektkopiering
   error_can_not_delete_custom_field: Kan ikke slette eget felt
-  error_unable_to_connect: Kunne ikke koble til (%{value})
+  error_unable_to_connect: "Kunne ikke koble til (%{value})"
   error_can_not_remove_role: Denne rollen er i bruk og kan ikke slettes.
   error_can_not_delete_tracker: Denne sakstypen inneholder saker og kan ikke slettes.
   field_principal: Principal
@@ -920,9 +920,9 @@
   field_visible: Synlig
   setting_emails_header: Eposthode
   setting_commit_logtime_activity_id: Aktivitet for logget tid.
-  text_time_logged_by_changeset: Lagt til i endringssett %{value}.
+  text_time_logged_by_changeset: "Lagt til i endringssett %{value}."
   setting_commit_logtime_enabled: Muliggjør loggføring av tid
-  notice_gantt_chart_truncated: Diagrammet ble avkortet fordi det overstiger det maksimale antall elementer som kan vises (%{max})
+  notice_gantt_chart_truncated: "Diagrammet ble avkortet fordi det overstiger det maksimale antall elementer som kan vises (%{max})"
   setting_gantt_items_limit: Maksimalt antall elementer vist på gantt-diagrammet
   field_warn_on_leaving_unsaved: Vis meg en advarsel når jeg forlater en side med ikke lagret tekst
   text_warn_on_leaving_unsaved: Den gjeldende siden inneholder tekst som ikke er lagret, som vil bli tapt hvis du forlater denne siden.
@@ -947,7 +947,7 @@
   field_is_private: Privat
   permission_set_issues_private: Gjør saker offentlige eller private
   label_issues_visibility_public: Alle ikke-private saker
-  text_issues_destroy_descendants_confirmation: Dette vil også slette %{count} undersak(er).
+  text_issues_destroy_descendants_confirmation: "Dette vil også slette %{count} undersak(er)."
   field_commit_logs_encoding: Tegnkoding for innsendingsmeldinger
   field_scm_path_encoding: Koding av sti
   text_scm_path_encoding_note: "Standard: UTF-8"
@@ -955,16 +955,16 @@
   field_root_directory: Rotkatalog
   field_cvs_module: Modul
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Lokalt depot (f.eks. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Lokalt depot (f.eks. /hgrepo, c:\\hgrepo)"
   text_scm_command: Kommando
   text_scm_command_version: Versjon
   label_git_report_last_commit: Rapporter siste innsending for filer og kataloger
   text_scm_config: Du kan konfigurere scm kommandoer i config/configuration.yml. Vennligst restart applikasjonen etter å ha redigert filen.
   text_scm_command_not_available: Scm kommando er ikke tilgjengelig. Vennligst kontroller innstillingene i administrasjonspanelet.
 
-  text_git_repository_note: Depot er bart og lokalt (f.eks. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Depot er bart og lokalt (f.eks. /gitrepo, c:\\gitrepo)"
 
-  notice_issue_successful_create: Sak %{id} opprettet.
+  notice_issue_successful_create: "Sak %{id} opprettet."
   label_between: mellom
   setting_issue_group_assignment: Tillat tildeling av saker til grupper
   label_diff: diff
@@ -995,4 +995,4 @@
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

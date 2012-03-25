@@ -429,8 +429,8 @@ da:
   label_closed_issues: lukket
   label_closed_issues_plural: lukkede
   label_x_open_issues_abbr_on_total:
-    zero:  0 åbne / %{total}
-    one:   1 åben / %{total}
+    zero:  "0 åbne / %{total}"
+    one:   "1 åben / %{total}"
     other: "%{count} åbne / %{total}"
   label_x_open_issues_abbr:
     zero:  0 åbne
@@ -657,10 +657,10 @@ da:
   status_locked: låst
   
   text_select_mail_notifications: Vælg handlinger der skal sendes email besked for.
-  text_regexp_info: f.eks. ^[A-ZÆØÅ0-9]+$
+  text_regexp_info: "f.eks. ^[A-ZÆØÅ0-9]+$"
   text_min_max_length_info: 0 betyder ingen begrænsninger
   text_project_destroy_confirmation: Er du sikker på at du vil slette dette projekt og alle relaterede data?
-  text_workflow_edit: Vælg en rolle samt en type, for at redigere arbejdsgangen
+  text_workflow_edit: "Vælg en rolle samt en type, for at redigere arbejdsgangen"
   text_are_you_sure: Er du sikker?
   text_tip_issue_begin_day: opgaven begynder denne dag
   text_tip_issue_end_day: opaven slutter denne dag
@@ -827,10 +827,10 @@ da:
   label_descending: Aftagende
   label_sort: Sortér
   label_ascending: Tiltagende
-  label_date_from_to: Fra %{start} til %{end}
+  label_date_from_to: "Fra %{start} til %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Denne side har %{descendants} underside(r) og afledte. Hvad vil du gøre?
+  text_wiki_page_destroy_question: "Denne side har %{descendants} underside(r) og afledte. Hvad vil du gøre?"
   text_wiki_page_reassign_children: Flyt undersider til denne side
   text_wiki_page_nullify_children: Behold undersider som rod-sider
   text_wiki_page_destroy_children: Slet undersider ogalle deres afledte sider.
@@ -839,11 +839,11 @@ da:
   mail_subject_wiki_content_updated: "'%{id}' wikisiden er blevet opdateret"
   label_wiki_content_added: Wiki side tilføjet
   mail_subject_wiki_content_added: "'%{id}' wikisiden er blevet tilføjet"
-  mail_body_wiki_content_added: The '%{id}' wikiside er blevet tilføjet af %{author}.
+  mail_body_wiki_content_added: "The '%{id}' wikiside er blevet tilføjet af %{author}."
   label_wiki_content_updated: Wikiside opdateret
-  mail_body_wiki_content_updated: Wikisiden '%{id}' er blevet opdateret af %{author}.
+  mail_body_wiki_content_updated: "Wikisiden '%{id}' er blevet opdateret af %{author}."
   permission_add_project: Opret projekt
-  setting_new_project_user_role_id: Denne rolle gives til en bruger, som ikke er administrator, og som opretter et projekt
+  setting_new_project_user_role_id: "Denne rolle gives til en bruger, som ikke er administrator, og som opretter et projekt"
   label_view_all_revisions: Se alle revisioner
   label_tag: Tag
   label_branch: Branch
@@ -866,7 +866,7 @@ da:
   error_can_not_reopen_issue_on_closed_version: En sag tildelt en lukket version kan ikke genåbnes
   label_user_anonymous: Anonym
   button_move_and_follow: Flyt og overvåg
-  setting_default_projects_modules: Standard moduler, aktiveret for nye projekter
+  setting_default_projects_modules: "Standard moduler, aktiveret for nye projekter"
   setting_gravatar_default: Standard Gravatar billede
   field_sharing: Delning
   label_version_sharing_hierarchy: Med projekthierarki
@@ -880,7 +880,7 @@ da:
   label_copy_source: Kilde
   setting_issue_done_ratio: Beregn sagsløsning ratio
   setting_issue_done_ratio_issue_status: Benyt sagsstatus
-  error_issue_done_ratios_not_updated: Sagsløsnings ratio, ikke opdateret.
+  error_issue_done_ratios_not_updated: "Sagsløsnings ratio, ikke opdateret."
   error_workflow_copy_target: Vælg venligst måltracker og rolle(r)
   setting_issue_done_ratio_issue_field: Benyt sagsfelt
   label_copy_same_as_target: Samme som mål
@@ -891,9 +891,9 @@ da:
   setting_start_of_week: Start kalendre på
   permission_view_issues: Vis sager
   label_display_used_statuses_only: Vis kun statusser der er benyttet af denne tracker
-  label_revision_id: Revision %{value}
+  label_revision_id: "Revision %{value}"
   label_api_access_key: API nøgle
-  label_api_access_key_created_on: API nøgle genereret %{value} siden
+  label_api_access_key_created_on: "API nøgle genereret %{value} siden"
   label_feeds_access_key: RSS nøgle
   notice_api_access_key_reseted: Din API nøgle er nulstillet.
   setting_rest_api_enabled: Aktiver REST web service
@@ -918,9 +918,9 @@ da:
   permission_manage_subtasks: Administrer underopgaver
   field_parent_issue: Hovedopgave
   label_subtask_plural: Underopgaver
-  label_project_copy_notifications: Send email notifikationer, mens projektet kopieres
+  label_project_copy_notifications: "Send email notifikationer, mens projektet kopieres"
   error_can_not_delete_custom_field: Kan ikke slette brugerdefineret felt
-  error_unable_to_connect: Kan ikke forbinde (%{value})
+  error_unable_to_connect: "Kan ikke forbinde (%{value})"
   error_can_not_remove_role: Denne rolle er i brug og kan ikke slettes.
   error_can_not_delete_tracker: Denne type indeholder sager og kan ikke slettes.
   field_principal: Principal
@@ -943,15 +943,15 @@ da:
   label_user_mail_option_none: Ingen hændelser
   field_member_of_group: Medlem af gruppe
   field_assigned_to_role: Medlem af rolle
-  notice_not_authorized_archived_project: Projektet du prøver at tilgå, er blevet arkiveret.
+  notice_not_authorized_archived_project: "Projektet du prøver at tilgå, er blevet arkiveret."
   label_principal_search: "Søg efter bruger eller gruppe:"
   label_user_search: "Søg efter bruger:"
   field_visible: Synlig
   setting_emails_header: Emails header
   setting_commit_logtime_activity_id: Aktivitet for registreret tid
-  text_time_logged_by_changeset: Anvendt i changeset %{value}.
+  text_time_logged_by_changeset: "Anvendt i changeset %{value}."
   setting_commit_logtime_enabled: Aktiver tidsregistrering
-  notice_gantt_chart_truncated: Kortet er blevet afkortet, fordi det overstiger det maksimale antal elementer, der kan vises (%{max})
+  notice_gantt_chart_truncated: "Kortet er blevet afkortet, fordi det overstiger det maksimale antal elementer, der kan vises (%{max})"
   setting_gantt_items_limit: Maksimalt antal af elementer der kan vises på gantt kortet
 
   field_warn_on_leaving_unsaved: Warn me when leaving a page with unsaved text
@@ -977,7 +977,7 @@ da:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Kodning af Commit beskeder
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -985,17 +985,17 @@ da:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1015,11 +1015,11 @@ da:
   description_selected_columns: Selected Columns
   label_parent_revision: Parent
   label_child_revision: Child
-  error_scm_annotate_big_text_file: The entry cannot be annotated, as it exceeds the maximum text file size.
+  error_scm_annotate_big_text_file: "The entry cannot be annotated, as it exceeds the maximum text file size."
   setting_default_issue_start_date_to_creation_date: Use current date as start date for new issues
   button_edit_section: Edit this section
   setting_repositories_encodings: Attachments and repositories encodings
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

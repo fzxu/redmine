@@ -656,8 +656,8 @@
   label_closed_issues: 已結束
   label_closed_issues_plural: 已結束
   label_x_open_issues_abbr_on_total:
-    zero:  0 進行中 / 共 %{total}
-    one:   1 進行中 / 共 %{total}
+    zero:  "0 進行中 / 共 %{total}"
+    one:   "1 進行中 / 共 %{total}"
     other: "%{count} 進行中 / 共 %{total}"
   label_x_open_issues_abbr:
     zero:  0 進行中
@@ -877,7 +877,7 @@
   label_sort: 排序
   label_ascending: 遞增排序
   label_descending: 遞減排序
-  label_date_from_to: 起 %{start} 迄 %{end}
+  label_date_from_to: "起 %{start} 迄 %{end}"
   label_wiki_content_added: Wiki 頁面已新增
   label_wiki_content_updated: Wiki 頁面已更新
   label_group: 群組
@@ -910,7 +910,7 @@
   label_git_report_last_commit: 報告最後認可的文件和目錄
   label_parent_revision: 父項
   label_child_revision: 子項
-  label_export_options: %{export_format} 匯出選項
+  label_export_options: "%{export_format} 匯出選項"
 
   button_login: 登入
   button_submit: 送出
@@ -1015,7 +1015,7 @@
   text_file_repository_writable: 可寫入附加檔案目錄
   text_plugin_assets_writable: 可寫入附加元件目錄
   text_rmagick_available: 可使用 RMagick (選配)
-  text_destroy_time_entries_question: 您即將刪除的問題已報工 %{hours} 小時. 您的選擇是？
+  text_destroy_time_entries_question: "您即將刪除的問題已報工 %{hours} 小時. 您的選擇是？"
   text_destroy_time_entries: 刪除已報工的時數
   text_assign_time_entries_to_project: 指定已報工的時數至專案中
   text_reassign_time_entries: '重新指定已報工的時數至此問題：'
@@ -1035,8 +1035,8 @@
   text_zoom_out: 縮小
   text_warn_on_leaving_unsaved: "若您離開這個頁面，此頁面所包含的未儲存資料將會遺失。"
   text_scm_path_encoding_note: "預設: UTF-8"
-  text_git_repository_note: 儲存機制是本機的空(bare)目錄 (即： /gitrepo, c:\gitrepo)
-  text_mercurial_repository_note: 本機儲存機制 (即： /hgrepo, c:\hgrepo)
+  text_git_repository_note: "儲存機制是本機的空(bare)目錄 (即： /gitrepo, c:\\gitrepo)"
+  text_mercurial_repository_note: "本機儲存機制 (即： /hgrepo, c:\\hgrepo)"
   text_scm_command: 命令
   text_scm_command_version: 版本
   text_scm_config: 您可以在 config/configuration.yml 中設定 SCM 命令。請在編輯該檔案之後重新啟動 Redmine 應用程式。

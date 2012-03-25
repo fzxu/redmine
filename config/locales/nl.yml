@@ -334,8 +334,8 @@ nl:
   label_closed_issues: gesloten
   label_closed_issues_plural: gesloten
   label_x_open_issues_abbr_on_total:
-    zero:  0 open / %{total}
-    one:   1 open / %{total}
+    zero:  "0 open / %{total}"
+    one:   "1 open / %{total}"
     other: "%{count} open / %{total}"
   label_x_open_issues_abbr:
     zero:  0 open
@@ -793,10 +793,10 @@ nl:
   label_descending: Aflopend
   label_sort: Sorteer
   label_ascending: Oplopend
-  label_date_from_to: Van %{start} tot %{end}
+  label_date_from_to: "Van %{start} tot %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Deze pagina heeft %{descendants} subpagina's en onderliggende pagina's?. Wat wilt u hiermee doen?
+  text_wiki_page_destroy_question: "Deze pagina heeft %{descendants} subpagina's en onderliggende pagina's?. Wat wilt u hiermee doen?"
   text_wiki_page_reassign_children: Alle subpagina's toewijzen aan deze hoofdpagina
   text_wiki_page_nullify_children: Behoud subpagina's als hoofdpagina's
   text_wiki_page_destroy_children: Verwijder alle subpagina's en onderliggende pagina's
@@ -805,9 +805,9 @@ nl:
   mail_subject_wiki_content_updated: "'%{id}' wiki pagina is bijgewerkt"
   label_wiki_content_added: Wiki pagina toegevoegd
   mail_subject_wiki_content_added: "'%{id}' wiki pagina is toegevoegd"
-  mail_body_wiki_content_added: De '%{id}' wiki pagina is toegevoegd door %{author}.
+  mail_body_wiki_content_added: "De '%{id}' wiki pagina is toegevoegd door %{author}."
   label_wiki_content_updated: Wiki pagina bijgewerkt
-  mail_body_wiki_content_updated: De '%{id}' wiki pagina is bijgewerkt door %{author}.
+  mail_body_wiki_content_updated: "De '%{id}' wiki pagina is bijgewerkt door %{author}."
   permission_add_project: Maak project
   setting_new_project_user_role_id: Rol van gebruiker die een project maakt
   label_view_all_revisions: Bekijk alle revisies
@@ -857,9 +857,9 @@ nl:
   setting_start_of_week: Week begint op
   permission_view_issues: Bekijk Issues
   label_display_used_statuses_only: Laat alleen statussen zien die gebruikt worden door deze tracker
-  label_revision_id: Revisie %{value}
+  label_revision_id: "Revisie %{value}"
   label_api_access_key: API access key
-  label_api_access_key_created_on: API access key gemaakt %{value} geleden
+  label_api_access_key_created_on: "API access key gemaakt %{value} geleden"
   label_feeds_access_key: RSS access key
   notice_api_access_key_reseted: Uw API access key was gereset.
   setting_rest_api_enabled: Activeer REST web service
@@ -886,7 +886,7 @@ nl:
   label_subtask_plural: Subtasks
   label_project_copy_notifications: Stuur email notificaties voor de project kopie
   error_can_not_delete_custom_field: Verwijderen niet mogelijk van custom field
-  error_unable_to_connect: Geen connectie (%{value})
+  error_unable_to_connect: "Geen connectie (%{value})"
   error_can_not_remove_role: Deze rol is in gebruik en kan niet worden verwijderd.
   error_can_not_delete_tracker: Deze tracker bevat nog issues en kan niet worden verwijderd.
   field_principal: Principal
@@ -915,9 +915,9 @@ nl:
   field_visible: Zichtbaar
   setting_emails_header: Emails header
   setting_commit_logtime_activity_id: Standaard activiteit voor tijdregistratie
-  text_time_logged_by_changeset: Toegepast in changeset %{value}.
+  text_time_logged_by_changeset: "Toegepast in changeset %{value}."
   setting_commit_logtime_enabled: Activeer tijdregistratie
-  notice_gantt_chart_truncated: De gantt chart is ingekort omdat het meer objecten bevat dan kan worden weergegeven, (%{max})
+  notice_gantt_chart_truncated: "De gantt chart is ingekort omdat het meer objecten bevat dan kan worden weergegeven, (%{max})"
   setting_gantt_items_limit: Max. aantal objecten op gantt chart
   field_warn_on_leaving_unsaved: Waarschuw me wanneer ik een pagina verlaat waarvan de tekst niet opgeslagen is
   text_warn_on_leaving_unsaved: De huidige pagina bevat tekst die niet is opgeslagen en dit zal verloren gaan als u deze pagina nu verlaat.
@@ -942,7 +942,7 @@ nl:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Encodering van commit berichten
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Standaard: UTF-8"
@@ -950,17 +950,17 @@ nl:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -987,4 +987,4 @@ nl:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

@@ -387,7 +387,7 @@ lt:
   setting_repository_log_display_limit: Maximum number of revisions displayed on file log
   setting_openid: Leisti OpenID prisijungimą ir registraciją
   setting_password_min_length: Minimalus slaptažodžio ilgis
-  setting_new_project_user_role_id: Vaidmuo, suteikiamas vartotojui (non-admin), kuris sukuria projektą
+  setting_new_project_user_role_id: "Vaidmuo, suteikiamas vartotojui (non-admin), kuris sukuria projektą"
   setting_default_projects_modules: Nustatytieji naujam projektui priskirti moduliai
 
   permission_add_project: Sukurti projektą
@@ -568,8 +568,8 @@ lt:
   label_closed_issues: uždaryta
   label_closed_issues_plural: uždaryti
   label_x_open_issues_abbr_on_total:
-    zero:  0 open / %{total}
-    one:   1 open / %{total}
+    zero:  "0 open / %{total}"
+    one:   "1 open / %{total}"
     other: "%{count} open / %{total}"
   label_x_open_issues_abbr:
     zero:  0 open
@@ -771,7 +771,7 @@ lt:
   label_descending: Descending
   label_sort: Rūšiuoti
   label_ascending: Ascending
-  label_date_from_to: From %{start} to %{end}
+  label_date_from_to: "From %{start} to %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
   label_wiki_content_added: Wiki puslapis pridėtas
@@ -879,7 +879,7 @@ lt:
   text_file_repository_writable: Į rinkmenu saugyklą galima saugoti (RW)
   text_plugin_assets_writable: Įskiepių 'assets' katalogas įrašomas
   text_rmagick_available: RMagick pasiekiamas (pasirinktinai)
-  text_destroy_time_entries_question: Naikinamam darbui priskirta %{hours} valandų. Ką jūs noryte su jomis daryti?
+  text_destroy_time_entries_question: "Naikinamam darbui priskirta %{hours} valandų. Ką jūs noryte su jomis daryti?"
   text_destroy_time_entries: Ištrinti paskelbtas valandas
   text_assign_time_entries_to_project: Priskirti valandas prie projekto
   text_reassign_time_entries: 'Priskirti paskelbtas valandas šiam darbui:'
@@ -890,7 +890,7 @@ lt:
   text_repository_usernames_mapping: "Parinkite  ar atnaujinkite Redmine vartotojo vardą kiekvienam saugyklos vardui, kuris paminėtas saugyklos log'e.\nVartotojai, turintys tą patį Redmine ir saugyklos vardą ar el.paštą automatiškai surišti."
   text_diff_truncated: "... Šis diff'as nukarpytas, nes jis viršijo maksimalų rodomą eilučių skaičių."
   text_custom_field_possible_values_info: 'Po vieną eilutę kiekvienai reikšmei'
-  text_wiki_page_destroy_question: This page has %{descendants} child page(s) and descendant(s). What do you want to do?
+  text_wiki_page_destroy_question: "This page has %{descendants} child page(s) and descendant(s). What do you want to do?"
   text_wiki_page_reassign_children: Priskirkite iš naujo 'child' puslapius šiam puslapiui
   text_wiki_page_nullify_children: Laikyti child puslapius as root puslapius
   text_wiki_page_destroy_children: Pašalinti child puslapius ir jų sekinius
@@ -935,9 +935,9 @@ lt:
   label_update_issue_done_ratios: Update issue done ratios
   permission_view_issues: View Issues
   label_display_used_statuses_only: Only display statuses that are used by this tracker
-  label_revision_id: Revision %{value}
+  label_revision_id: "Revision %{value}"
   label_api_access_key: API access key
-  label_api_access_key_created_on: API access key created %{value} ago
+  label_api_access_key_created_on: "API access key created %{value} ago"
   label_feeds_access_key: RSS access key
   notice_api_access_key_reseted: Your API access key was reset.
   setting_rest_api_enabled: Enable REST web service
@@ -964,7 +964,7 @@ lt:
   label_subtask_plural: Subtasks
   label_project_copy_notifications: Send email notifications during the project copy
   error_can_not_delete_custom_field: Unable to delete custom field
-  error_unable_to_connect: Unable to connect (%{value})
+  error_unable_to_connect: "Unable to connect (%{value})"
   error_can_not_remove_role: This role is in use and can not be deleted.
   error_can_not_delete_tracker: This tracker contains issues and can't be deleted.
   field_principal: Principal
@@ -993,9 +993,9 @@ lt:
   field_visible: Visible
   setting_emails_header: Emails header
   setting_commit_logtime_activity_id: Activity for logged time
-  text_time_logged_by_changeset: Applied in changeset %{value}.
+  text_time_logged_by_changeset: "Applied in changeset %{value}."
   setting_commit_logtime_enabled: Enable time logging
-  notice_gantt_chart_truncated: The chart was truncated because it exceeds the maximum number of items that can be displayed (%{max})
+  notice_gantt_chart_truncated: "The chart was truncated because it exceeds the maximum number of items that can be displayed (%{max})"
   setting_gantt_items_limit: Maximum number of items displayed on the gantt chart
   field_warn_on_leaving_unsaved: Warn me when leaving a page with unsaved text
   text_warn_on_leaving_unsaved: The current page contains unsaved text that will be lost if you leave this page.
@@ -1020,7 +1020,7 @@ lt:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Commit pranešimų koduotė
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -1028,17 +1028,17 @@ lt:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1065,4 +1065,4 @@ lt:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

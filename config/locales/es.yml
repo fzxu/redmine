@@ -388,8 +388,8 @@ es:
   label_closed_issues: cerrada
   label_closed_issues_plural: cerradas
   label_x_open_issues_abbr_on_total:
-    zero:  0 abiertas / %{total}
-    one:   1 abierta / %{total}
+    zero:  "0 abiertas / %{total}"
+    one:   "1 abierta / %{total}"
     other: "%{count} abiertas / %{total}"
   label_x_open_issues_abbr:
     zero:  0 abiertas
@@ -795,7 +795,7 @@ es:
   text_comma_separated: Múltiples valores permitidos (separados por coma).
   text_default_administrator_account_changed: Cuenta de administrador por defecto modificada
   text_destroy_time_entries: Borrar las horas
-  text_destroy_time_entries_question: Existen %{hours} horas asignadas a la petición que quiere borrar. ¿Qué quiere hacer?
+  text_destroy_time_entries_question: "Existen %{hours} horas asignadas a la petición que quiere borrar. ¿Qué quiere hacer?"
   text_diff_truncated: '... Diferencia truncada por exceder el máximo tamaño visualizable.'
   text_email_delivery_not_configured: "Las notificaciones están desactivadas porque el servidor de correo no está configurado.\nConfigure el servidor de SMTP en config/configuration.yml y reinicie la aplicación para activar los cambios."
   text_enumeration_category_reassign_to: 'Reasignar al siguiente valor:'
@@ -847,10 +847,10 @@ es:
   label_descending: Descendente
   label_sort: Ordenar
   label_ascending: Ascendente
-  label_date_from_to: Desde %{start} hasta %{end}
+  label_date_from_to: "Desde %{start} hasta %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Esta página tiene %{descendants} página(s) hija(s) y descendiente(s). ¿Qué desea hacer?
+  text_wiki_page_destroy_question: "Esta página tiene %{descendants} página(s) hija(s) y descendiente(s). ¿Qué desea hacer?"
   text_wiki_page_reassign_children: Reasignar páginas hijas a esta página
   text_wiki_page_nullify_children: Dejar páginas hijas como páginas raíz
   text_wiki_page_destroy_children: Eliminar páginas hijas y todos sus descendientes
@@ -861,7 +861,7 @@ es:
   mail_subject_wiki_content_added: "Se ha añadido la página wiki '%{id}'."
   mail_body_wiki_content_added: "%{author} ha añadido la página wiki '%{id}'."
   label_wiki_content_updated: Página wiki actualizada
-  mail_body_wiki_content_updated: La página wiki '%{id}' ha sido actualizada por %{author}.
+  mail_body_wiki_content_updated: "La página wiki '%{id}' ha sido actualizada por %{author}."
   permission_add_project: Crear proyecto
   setting_new_project_user_role_id: Permiso asignado a un usuario no-administrador para crear proyectos
   label_view_all_revisions: Ver todas las revisiones
@@ -912,9 +912,9 @@ es:
   setting_start_of_week: Comenzar las semanas en
   permission_view_issues: Ver peticiones
   label_display_used_statuses_only: Sólo mostrar los estados usados por este tipo de petición
-  label_revision_id: Revisión %{value}
+  label_revision_id: "Revisión %{value}"
   label_api_access_key: Clave de acceso de la API
-  label_api_access_key_created_on: Clave de acceso de la API creada hace %{value}
+  label_api_access_key_created_on: "Clave de acceso de la API creada hace %{value}"
   label_feeds_access_key: Clave de acceso RSS
   notice_api_access_key_reseted: Clave de acceso a la API regenerada.
   setting_rest_api_enabled: Activar servicio web REST
@@ -941,7 +941,7 @@ es:
   label_subtask_plural: Subtareas
   label_project_copy_notifications: Enviar notificaciones por correo electrónico durante la copia del proyecto
   error_can_not_delete_custom_field: Fue imposible eliminar el campo personalizado
-  error_unable_to_connect: Fue imposible conectar con (%{value})
+  error_unable_to_connect: "Fue imposible conectar con (%{value})"
   error_can_not_remove_role: Este rol está en uso y no puede ser eliminado.
   error_can_not_delete_tracker: Este tipo contiene peticiones y no puede ser eliminado.
   field_principal: Principal
@@ -971,9 +971,9 @@ es:
   setting_emails_header: Encabezado de Correos
 
   setting_commit_logtime_activity_id: Actividad de los tiempos registrados
-  text_time_logged_by_changeset: Aplicado en los cambios %{value}.
+  text_time_logged_by_changeset: "Aplicado en los cambios %{value}."
   setting_commit_logtime_enabled: Habilitar registro de horas
-  notice_gantt_chart_truncated: Se recortó el diagrama porque excede el número máximo de elementos que pueden ser mostrados (%{max})
+  notice_gantt_chart_truncated: "Se recortó el diagrama porque excede el número máximo de elementos que pueden ser mostrados (%{max})"
   setting_gantt_items_limit: Número máximo de elementos mostrados en el diagrama de Gantt
   field_warn_on_leaving_unsaved: Avisarme cuando vaya a abandonar una página con texto no guardado
   text_warn_on_leaving_unsaved: Esta página contiene texto no guardado y si la abandona sus cambios se perderán
@@ -985,7 +985,7 @@ es:
   label_additional_workflow_transitions_for_assignee: Transiciones adicionales permitidas cuando la petición está asignada al usuario
   label_additional_workflow_transitions_for_author: Transiciones adicionales permitidas cuando el usuario es autor de la petición
   label_bulk_edit_selected_time_entries: Editar en bloque las horas seleccionadas
-  text_time_entries_destroy_confirmation: ¿Está seguro de querer eliminar (la hora seleccionada/las horas seleccionadas)?
+  text_time_entries_destroy_confirmation: "¿Está seguro de querer eliminar (la hora seleccionada/las horas seleccionadas)?"
   label_role_anonymous: Anónimo
   label_role_non_member: No miembro
   label_issue_note_added: Nota añadida
@@ -998,7 +998,7 @@ es:
   field_is_private: Privada
   permission_set_issues_private: Poner peticiones como públicas o privadas
   label_issues_visibility_public: Todas las peticiones no privadas
-  text_issues_destroy_descendants_confirmation: Se procederá a borrar también %{count} subtarea(s).
+  text_issues_destroy_descendants_confirmation: "Se procederá a borrar también %{count} subtarea(s)."
   field_commit_logs_encoding: Codificación de los mensajes de commit
   field_scm_path_encoding: Codificación de las rutas
   text_scm_path_encoding_note: "Por defecto: UTF-8"
@@ -1006,17 +1006,17 @@ es:
   field_root_directory: Directorio raíz
   field_cvs_module: Módulo
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Repositorio local (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Repositorio local (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Orden
   text_scm_command_version: Versión
   label_git_report_last_commit: Informar del último commit para ficheros y directorios
   text_scm_config: Puede configurar las órdenes de cada scm en configuration/configuration.yml. Por favor, reinicie la aplicación después de editarlo
   text_scm_command_not_available: La orden para el Scm no está disponible. Por favor, compruebe la configuración en el panel de administración.
-  notice_issue_successful_create: Petición %{id} creada.
+  notice_issue_successful_create: "Petición %{id} creada."
   label_between: entre
   setting_issue_group_assignment: Permitir asignar peticiones a grupos
   label_diff: diferencias
-  text_git_repository_note: El repositorio es básico y local (p.e. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "El repositorio es básico y local (p.e. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Dirección de ordenación
   description_project_scope: Ámbito de búsqueda
   description_filter: Filtro
@@ -1042,4 +1042,4 @@ es:
   description_all_columns: Todas las columnas
   button_export: Exportar
   label_export_options: "%{export_format} opciones de exportación"
-  error_attachment_too_big: Este fichero no se puede adjuntar porque excede el tamaño máximo de fichero (%{max_size})
+  error_attachment_too_big: "Este fichero no se puede adjuntar porque excede el tamaño máximo de fichero (%{max_size})"

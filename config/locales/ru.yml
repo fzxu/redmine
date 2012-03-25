@@ -290,7 +290,7 @@ ru:
   error_scm_annotate: "Данные отсутствуют или не могут быть подписаны."
   error_scm_command_failed: "Ошибка доступа к хранилищу: %{value}"
   error_scm_not_found: Хранилище не содержит записи и/или исправления.
-  error_unable_to_connect: Невозможно подключиться (%{value})
+  error_unable_to_connect: "Невозможно подключиться (%{value})"
   error_unable_delete_issue_status: Невозможно удалить статус задачи
 
   field_account: Учетная запись
@@ -468,7 +468,7 @@ ru:
   label_custom_field_new: Новое настраиваемое поле
   label_custom_field_plural: Настраиваемые поля
   label_date_from: С
-  label_date_from_to: С %{start} по %{end}
+  label_date_from_to: "С %{start} по %{end}"
   label_date_range: временной интервал
   label_date_to: по
   label_date: Дата
@@ -954,7 +954,7 @@ ru:
   text_workflow_edit: Выберите роль и трекер для редактирования последовательности состояний
 
   warning_attachments_not_saved: "%{count} файл(ов) невозможно сохранить."
-  text_wiki_page_destroy_question: Эта страница имеет %{descendants} дочерних страниц и их потомков. Что вы хотите предпринять?
+  text_wiki_page_destroy_question: "Эта страница имеет %{descendants} дочерних страниц и их потомков. Что вы хотите предпринять?"
   text_wiki_page_reassign_children: Переопределить дочерние страницы на текущую страницу
   text_wiki_page_nullify_children: Сделать дочерние страницы главными страницами
   text_wiki_page_destroy_children: Удалить дочерние страницы и всех их потомков
@@ -1012,10 +1012,10 @@ ru:
   setting_start_of_week: День начала недели
   label_api_access_key: Ключ доступа к API
   text_line_separated: Разрешено несколько значений (по одному значению в строку).
-  label_revision_id: Ревизия %{value}
+  label_revision_id: "Ревизия %{value}"
   permission_view_issues: Просмотр задач
   label_display_used_statuses_only: Отображать только те статусы, которые используются в этом трекере
-  label_api_access_key_created_on: Ключ доступ к API был создан %{value} назад
+  label_api_access_key_created_on: "Ключ доступ к API был создан %{value} назад"
   label_feeds_access_key: Ключ доступа к RSS
   notice_api_access_key_reseted: Ваш ключ доступа к API был сброшен.
   setting_rest_api_enabled: Включить веб-сервис REST
@@ -1046,9 +1046,9 @@ ru:
   setting_emails_header: Заголовок письма
 
   setting_commit_logtime_activity_id: Действие для учета времени
-  text_time_logged_by_changeset: Учтено в редакции %{value}.
+  text_time_logged_by_changeset: "Учтено в редакции %{value}."
   setting_commit_logtime_enabled: Включить учет времени
-  notice_gantt_chart_truncated: Диаграмма будет усечена, поскольку превышено максимальное кол-во элементов, которые могут отображаться (%{max})
+  notice_gantt_chart_truncated: "Диаграмма будет усечена, поскольку превышено максимальное кол-во элементов, которые могут отображаться (%{max})"
   setting_gantt_items_limit: Максимальное кол-во элементов отображаемых на диаграмме Ганта
   field_warn_on_leaving_unsaved: Предупреждать при закрытии страницы с несохраненным текстом
   text_warn_on_leaving_unsaved: Текущая страница содержит несохраненный текст, который будет потерян, если вы покинете эту страницу.
@@ -1073,7 +1073,7 @@ ru:
   field_is_private: Частная
   permission_set_issues_private: Установление видимости (общая/частная) для задач
   label_issues_visibility_public: Только общие задачи
-  text_issues_destroy_descendants_confirmation: Так же будет удалено %{count} задач(и).
+  text_issues_destroy_descendants_confirmation: "Так же будет удалено %{count} задач(и)."
   field_commit_logs_encoding: Кодировка комментариев в хранилище
   field_scm_path_encoding: Кодировка пути
   text_scm_path_encoding_note: "По умолчанию: UTF-8"
@@ -1081,17 +1081,17 @@ ru:
   field_root_directory: Корневая директория
   field_cvs_module: Модуль
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Локальное хранилище (например, /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Локальное хранилище (например, /hgrepo, c:\\hgrepo)"
   text_scm_command: Команда
   text_scm_command_version: Версия
   label_git_report_last_commit: Указывать последнее изменения для файлов и директорий
   text_scm_config: Вы можете настроить команды SCM в файле config/configuration.yml. Пожалуйста, перезапустите приложение после редактирования этого файла.
   text_scm_command_not_available: Команда системы контроля версий недоступна. Пожалуйста, проверьте настройки в административной панели.
-  notice_issue_successful_create: Задача %{id} создана.
+  notice_issue_successful_create: "Задача %{id} создана."
   label_between: между
   setting_issue_group_assignment: Разрешить назначение задач группам пользователей
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1118,4 +1118,4 @@ ru:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

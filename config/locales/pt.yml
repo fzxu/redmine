@@ -437,8 +437,8 @@ pt:
   label_closed_issues: fechado
   label_closed_issues_plural: fechados
   label_x_open_issues_abbr_on_total:
-    zero:  0 open / %{total}
-    one:   1 open / %{total}
+    zero:  "0 open / %{total}"
+    one:   "1 open / %{total}"
     other: "%{count} open / %{total}"
   label_x_open_issues_abbr:
     zero:  0 open
@@ -816,10 +816,10 @@ pt:
   label_descending: Descendente
   label_sort: Ordenar
   label_ascending: Ascendente
-  label_date_from_to: De %{start} a %{end}
+  label_date_from_to: "De %{start} a %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Esta página tem %{descendants} página(s) subordinada(s) e descendente(s). O que deseja fazer?
+  text_wiki_page_destroy_question: "Esta página tem %{descendants} página(s) subordinada(s) e descendente(s). O que deseja fazer?"
   text_wiki_page_reassign_children: Reatribuir páginas subordinadas a esta página principal
   text_wiki_page_nullify_children: Manter páginas subordinadas como páginas raíz
   text_wiki_page_destroy_children: Apagar as páginas subordinadas e todos os seus descendentes
@@ -828,9 +828,9 @@ pt:
   mail_subject_wiki_content_updated: "A página Wiki '%{id}' foi actualizada"
   label_wiki_content_added: Página Wiki adicionada
   mail_subject_wiki_content_added: "A página Wiki '%{id}' foi adicionada"
-  mail_body_wiki_content_added: A página Wiki '%{id}' foi adicionada por %{author}.
+  mail_body_wiki_content_added: "A página Wiki '%{id}' foi adicionada por %{author}."
   label_wiki_content_updated: Página Wiki actualizada
-  mail_body_wiki_content_updated: A página Wiki '%{id}' foi actualizada por %{author}.
+  mail_body_wiki_content_updated: "A página Wiki '%{id}' foi actualizada por %{author}."
   permission_add_project: Criar projecto
   setting_new_project_user_role_id: Função atribuída a um utilizador não-administrador que cria um projecto
   label_view_all_revisions: Ver todas as revisões
@@ -880,9 +880,9 @@ pt:
   setting_start_of_week: Iniciar calendários a
   permission_view_issues: Ver tarefas
   label_display_used_statuses_only: Só exibir estados empregues por este tipo de tarefa
-  label_revision_id: Revisão %{value}
+  label_revision_id: "Revisão %{value}"
   label_api_access_key: Chave de acesso API
-  label_api_access_key_created_on: Chave de acesso API criada há %{value}
+  label_api_access_key_created_on: "Chave de acesso API criada há %{value}"
   label_feeds_access_key: Chave de acesso RSS
   notice_api_access_key_reseted: A sua chave de acesso API foi reinicializada.
   setting_rest_api_enabled: Activar serviço Web REST
@@ -909,7 +909,7 @@ pt:
   label_subtask_plural: Sub-tarefa
   label_project_copy_notifications: Enviar notificações por e-mail durante a cópia do projecto
   error_can_not_delete_custom_field: Não foi possível apagar o campo personalizado
-  error_unable_to_connect: Não foi possível ligar (%{value})
+  error_unable_to_connect: "Não foi possível ligar (%{value})"
   error_can_not_remove_role: Esta função está actualmente em uso e não pode ser apagada.
   error_can_not_delete_tracker: Existem ainda tarefas nesta categoria. Não é possível apagar este tipo de tarefa.
   field_principal: Principal
@@ -938,9 +938,9 @@ pt:
   field_visible: Visível
   setting_emails_header: Cabeçalho dos e-mails
   setting_commit_logtime_activity_id: Actividade para tempo registado
-  text_time_logged_by_changeset: Aplicado no conjunto de alterações %{value}.
+  text_time_logged_by_changeset: "Aplicado no conjunto de alterações %{value}."
   setting_commit_logtime_enabled: Activar registo de tempo
-  notice_gantt_chart_truncated: O gráfico foi truncado porque excede o número máximo de itens visível (%{máx.})
+  notice_gantt_chart_truncated: "O gráfico foi truncado porque excede o número máximo de itens visível (%{máx.})"
   setting_gantt_items_limit: Número máximo de itens exibidos no gráfico Gantt
   field_warn_on_leaving_unsaved: Warn me when leaving a page with unsaved text
   text_warn_on_leaving_unsaved: The current page contains unsaved text that will be lost if you leave this page.
@@ -965,7 +965,7 @@ pt:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Encoding das mensagens de commit
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -973,17 +973,17 @@ pt:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1010,4 +1010,4 @@ pt:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

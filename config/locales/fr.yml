@@ -197,7 +197,7 @@ fr:
   error_workflow_copy_source: 'Veuillez sélectionner un tracker et/ou un rôle source'
   error_workflow_copy_target: 'Veuillez sélectionner les trackers et rôles cibles'
   error_issue_done_ratios_not_updated: L'avancement des demandes n'a pas pu être mis à jour.
-  error_attachment_too_big: Ce fichier ne peut pas être attaché car il excède la taille maximale autorisée (%{max_size})
+  error_attachment_too_big: "Ce fichier ne peut pas être attaché car il excède la taille maximale autorisée (%{max_size})"
 
   warning_attachments_not_saved: "%{count} fichier(s) n'ont pas pu être sauvegardés."
 
@@ -567,8 +567,8 @@ fr:
   label_closed_issues: fermé
   label_closed_issues_plural: fermés
   label_x_open_issues_abbr_on_total:
-    zero:  0 ouvert sur %{total}
-    one:   1 ouvert sur %{total}
+    zero:  "0 ouvert sur %{total}"
+    one:   "1 ouvert sur %{total}"
     other: "%{count} ouverts sur %{total}"
   label_x_open_issues_abbr:
     zero:  0 ouvert
@@ -770,7 +770,7 @@ fr:
   label_sort: Tri
   label_ascending: Croissant
   label_descending: Décroissant
-  label_date_from_to: Du %{start} au %{end}
+  label_date_from_to: "Du %{start} au %{end}"
   label_wiki_content_added: Page wiki ajoutée
   label_wiki_content_updated: Page wiki mise à jour
   label_group_plural: Groupes
@@ -788,12 +788,12 @@ fr:
   label_update_issue_done_ratios: Mettre à jour l'avancement des demandes
   label_display_used_statuses_only: N'afficher que les statuts utilisés dans ce tracker
   label_api_access_key: Clé d'accès API
-  label_api_access_key_created_on: Clé d'accès API créée il y a %{value}
+  label_api_access_key_created_on: "Clé d'accès API créée il y a %{value}"
   label_feeds_access_key: Clé d'accès RSS
   label_missing_api_access_key: Clé d'accès API manquante
   label_missing_feeds_access_key: Clé d'accès RSS manquante
   label_close_versions: Fermer les versions terminées
-  label_revision_id: Revision %{value}
+  label_revision_id: "Revision %{value}"
   label_profile: Profil
   label_subtask_plural: Sous-tâches
   label_project_copy_notifications: Envoyer les notifications durant la copie du projet
@@ -804,7 +804,7 @@ fr:
   label_issues_visibility_all: Toutes les demandes
   label_issues_visibility_public: Toutes les demandes non privées
   label_issues_visibility_own: Demandes créées par ou assignées à l'utilisateur
-  label_export_options: Options d'exportation %{export_format}
+  label_export_options: "Options d'exportation %{export_format}"
 
   button_login: Connexion
   button_submit: Soumettre
@@ -960,7 +960,7 @@ fr:
   label_board_locked: Verrouillé
   error_unable_delete_issue_status: Impossible de supprimer le statut de demande
   error_can_not_delete_custom_field: Impossible de supprimer le champ personnalisé
-  error_unable_to_connect: Connexion impossible (%{value})
+  error_unable_to_connect: "Connexion impossible (%{value})"
   error_can_not_remove_role: Ce rôle est utilisé et ne peut pas être supprimé.
   error_can_not_delete_tracker: Ce tracker contient des demandes et ne peut pas être supprimé.
   field_principal: Principal
@@ -995,10 +995,10 @@ fr:
   text_scm_command: Commande
   text_scm_command_version: Version
   label_git_report_last_commit: Afficher le dernier commit des fichiers et répertoires
-  text_scm_config: Vous pouvez configurer les commandes des SCM dans config/configuration.yml. Redémarrer l'application après modification.
+  text_scm_config: "Vous pouvez configurer les commandes des SCM dans config/configuration.yml. Redémarrer l'application après modification."
   text_scm_command_not_available: Ce SCM n'est pas disponible. Vérifier les paramètres dans la section administration.
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Ordre de tri
   description_project_scope: Périmètre de recherche
   description_filter: Filtre

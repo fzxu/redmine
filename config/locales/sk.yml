@@ -417,8 +417,8 @@ sk:
   label_closed_issues: Uzavrený
   label_closed_issues_plural: Uzavrené
   label_x_open_issues_abbr_on_total:
-    zero:  0 otvorených z celkovo %{total}
-    one:   1 otvorený z celkovo %{total}
+    zero:  "0 otvorených z celkovo %{total}"
+    one:   "1 otvorený z celkovo %{total}"
     other: "%{count} otvorené/ých z celkovo %{total}"
   label_x_open_issues_abbr:
     zero:  0 otvorených
@@ -806,10 +806,10 @@ sk:
   label_descending: Zostupné
   label_sort: Zoradenie
   label_ascending: Rastúce
-  label_date_from_to: Od %{start} do %{end}
+  label_date_from_to: "Od %{start} do %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Táto stránka má %{descendants} podstránku/y a potomka/ov. Čo chcete vykonať?
+  text_wiki_page_destroy_question: "Táto stránka má %{descendants} podstránku/y a potomka/ov. Čo chcete vykonať?"
   text_wiki_page_reassign_children: Preradiť podstránky k tejto hlavnej stránke
   text_wiki_page_nullify_children: Zachovať podstránky ako hlavné stránky
   text_wiki_page_destroy_children: Vymazať podstránky a všetkých ich potomkov
@@ -818,10 +818,10 @@ sk:
   mail_subject_wiki_content_updated: "'%{id}' Wiki stránka bola aktualizovaná"
   label_wiki_content_added: Wiki stránka pridaná
   mail_subject_wiki_content_added: "'%{id}' Wiki stránka bola pridaná"
-  mail_body_wiki_content_added: The '%{id}' Wiki stránka bola pridaná užívateľom %{author}.
+  mail_body_wiki_content_added: "The '%{id}' Wiki stránka bola pridaná užívateľom %{author}."
   permission_add_project: Vytvorenie projektu
   label_wiki_content_updated: Wiki stránka aktualizovaná
-  mail_body_wiki_content_updated: Wiki stránka '%{id}' bola aktualizovaná užívateľom %{author}.
+  mail_body_wiki_content_updated: "Wiki stránka '%{id}' bola aktualizovaná užívateľom %{author}."
   setting_new_project_user_role_id: Rola dána non-admin užívateľovi, ktorý vytvorí projekt
   label_view_all_revisions: Zobraziť všetkz revízie
   label_tag: Tag
@@ -870,9 +870,9 @@ sk:
   setting_start_of_week: Štart pracovného týždňa v
   permission_view_issues: Zobraziť úlohy
   label_display_used_statuses_only: Zobraziť len stavy, ktoré sú priradené k tejto fronte
-  label_revision_id: Revízia %{value}
+  label_revision_id: "Revízia %{value}"
   label_api_access_key: API prístupový kľúč
-  label_api_access_key_created_on: API prístupový kľúč vytvorený pred %{value}
+  label_api_access_key_created_on: "API prístupový kľúč vytvorený pred %{value}"
   label_feeds_access_key: RSS prístupový kľúč
   notice_api_access_key_reseted: Váš API prístupový kľúč bol resetovaný.
   setting_rest_api_enabled: Zapnúť REST web službu
@@ -899,7 +899,7 @@ sk:
   label_subtask_plural: Podúlohy
   label_project_copy_notifications: Zaslať emailové upozornenie behom kopírovania projektu
   error_can_not_delete_custom_field: Nieje možné vymazať užívateľské pole
-  error_unable_to_connect: Nieje možné vymazať (%{value})
+  error_unable_to_connect: "Nieje možné vymazať (%{value})"
   error_can_not_remove_role: Táto roľa sa používa a nemôže byť vymazaná.
   error_can_not_delete_tracker: Táto fronta obsahuje úlohy a nemôže byť vymazaná.
   field_principal: Principal
@@ -928,9 +928,9 @@ sk:
   field_visible: Visible
   setting_emails_header: Emails header
   setting_commit_logtime_activity_id: Activity for logged time
-  text_time_logged_by_changeset: Applied in changeset %{value}.
+  text_time_logged_by_changeset: "Applied in changeset %{value}."
   setting_commit_logtime_enabled: Enable time logging
-  notice_gantt_chart_truncated: The chart was truncated because it exceeds the maximum number of items that can be displayed (%{max})
+  notice_gantt_chart_truncated: "The chart was truncated because it exceeds the maximum number of items that can be displayed (%{max})"
   setting_gantt_items_limit: Maximum number of items displayed on the gantt chart
   field_warn_on_leaving_unsaved: Warn me when leaving a page with unsaved text
   text_warn_on_leaving_unsaved: The current page contains unsaved text that will be lost if you leave this page.
@@ -955,7 +955,7 @@ sk:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Kódovanie prenášaných správ
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -963,17 +963,17 @@ sk:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1000,4 +1000,4 @@ sk:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

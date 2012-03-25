@@ -574,8 +574,8 @@ ar:
   label_closed_issues: قضية مغلقة
   label_closed_issues_plural: قضايا مغلقة
   label_x_open_issues_abbr_on_total:
-    zero: 0 مفتوح / %{total}
-    one: 1 مفتوح / %{total}
+    zero: "0 مفتوح / %{total}"
+    one: "1 مفتوح / %{total}"
     other: "%{count} مفتوح / %{total}"
   label_x_open_issues_abbr:
     zero: 0 مفتوح
@@ -795,7 +795,7 @@ ar:
   label_sort: فرز
   label_ascending: تصاعدي
   label_descending: تنازلي
-  label_date_from_to: من %{start} الى %{end}
+  label_date_from_to: "من %{start} الى %{end}"
   label_wiki_content_added: إضافة صفحة ويكي
   label_wiki_content_updated: تحديث صفحة ويكي
   label_group: مجموعة
@@ -890,7 +890,7 @@ ar:
   field_active: فعال
 
   text_select_mail_notifications: حدد الامور التي يجب ابلاغك بها عن طريق البريد الالكتروني
-  text_regexp_info: مثال. ^[A-Z0-9]+$
+  text_regexp_info: "مثال. ^[A-Z0-9]+$"
   text_min_max_length_info: الحد الاقصى والادني لطول المعلومات
   text_project_destroy_confirmation: هل أنت متأكد من أنك تريد حذف هذا المشروع والبيانات ذات الصلة؟
   text_subprojects_destroy_warning: "subproject(s): سيتم حذف أيضا."
@@ -1001,8 +1001,8 @@ ar:
   description_date_from: ادخل تاريخ البداية
   description_date_to: ادخل تاريخ الانتهاء
   text_rmagick_available: RMagick available (optional)
-  text_wiki_page_destroy_question: This page has %{descendants} child page(s) and descendant(s). What do you want to do?
-  text_project_identifier_info: Only lower case letters (a-z), numbers and dashes are allowed.<br />Once saved, the identifier cannot be changed.
+  text_wiki_page_destroy_question: "This page has %{descendants} child page(s) and descendant(s). What do you want to do?"
+  text_project_identifier_info: "Only lower case letters (a-z), numbers and dashes are allowed.<br />Once saved, the identifier cannot be changed."
   text_repository_usernames_mapping: |-
     Select or update the Redmine user mapped to each username found in the repository log.
     Users with the same Redmine and repository username or email are automatically mapped.

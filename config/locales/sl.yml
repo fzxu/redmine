@@ -481,8 +481,8 @@ sl:
   label_closed_issues: zaprt zahtevek
   label_closed_issues_plural: zaprti zahtevki
   label_x_open_issues_abbr_on_total:
-    zero:  0 odprtih / %{total}
-    one:   1 odprt / %{total}
+    zero:  "0 odprtih / %{total}"
+    one:   "1 odprt / %{total}"
     other: "%{count} odprtih / %{total}"
   label_x_open_issues_abbr:
     zero:  0 odprtih
@@ -808,10 +808,10 @@ sl:
   label_descending: Padajoče
   label_sort: Razvrsti
   label_ascending: Naraščajoče
-  label_date_from_to: Od %{start} do %{end}
+  label_date_from_to: "Od %{start} do %{end}"
   label_greater_or_equal: ">="
   label_less_or_equal: <=
-  text_wiki_page_destroy_question: Ta stran ima %{descendants} podstran(i) in naslednik(ov). Kaj želite storiti?
+  text_wiki_page_destroy_question: "Ta stran ima %{descendants} podstran(i) in naslednik(ov). Kaj želite storiti?"
   text_wiki_page_reassign_children: Znova dodeli podstrani tej glavni strani
   text_wiki_page_nullify_children: Obdrži podstrani kot glavne strani
   text_wiki_page_destroy_children: Izbriši podstrani in vse njihove naslednike
@@ -872,9 +872,9 @@ sl:
   setting_start_of_week: Začni koledarje z
   permission_view_issues: Poglej zahtevke
   label_display_used_statuses_only: Prikaži samo stanja ki uporabljajo ta sledilnik
-  label_revision_id: Revizija %{value}
+  label_revision_id: "Revizija %{value}"
   label_api_access_key: API dostopni ključ
-  label_api_access_key_created_on: API dostopni ključ ustvarjen pred %{value}
+  label_api_access_key_created_on: "API dostopni ključ ustvarjen pred %{value}"
   label_feeds_access_key: RSS dostopni ključ
   notice_api_access_key_reseted: Vaš API dostopni ključ je bil ponastavljen.
   setting_rest_api_enabled: Omogoči REST spletni servis
@@ -901,7 +901,7 @@ sl:
   label_subtask_plural: Podnaloge
   label_project_copy_notifications: Med kopiranjem projekta pošlji e-poštno sporočilo
   error_can_not_delete_custom_field: Polja po meri ni mogoče izbrisati
-  error_unable_to_connect: Povezava ni mogoča (%{value})
+  error_unable_to_connect: "Povezava ni mogoča (%{value})"
   error_can_not_remove_role: Ta vloga je v uporabi in je ni mogoče izbrisati.
   error_can_not_delete_tracker: Ta sledilnik vsebuje zahtevke in se ga ne more izbrisati.
   field_principal: Upravnik varnosti
@@ -930,7 +930,7 @@ sl:
   field_visible: Viden
   setting_emails_header: Glava e-pošte
   setting_commit_logtime_activity_id: Aktivnost zabeleženega časa
-  text_time_logged_by_changeset: Uporabljeno v spremembi %{value}.
+  text_time_logged_by_changeset: "Uporabljeno v spremembi %{value}."
   setting_commit_logtime_enabled: Omogoči beleženje časa
   notice_gantt_chart_truncated: Graf je bil odrezan, ker je prekoračil največje dovoljeno število elementov, ki se jih lahko prikaže (%{max})
   setting_gantt_items_limit: Največje število elementov prikazano na gantogramu
@@ -957,7 +957,7 @@ sl:
   field_is_private: Zaseben
   permission_set_issues_private: Nastavi zahtevke kot javne ali zasebne
   label_issues_visibility_public: Vsi nezasebni zahtevki
-  text_issues_destroy_descendants_confirmation: To bo izbrisalo tudi  %{count} podnalog(o).
+  text_issues_destroy_descendants_confirmation: "To bo izbrisalo tudi  %{count} podnalog(o)."
   field_commit_logs_encoding: Kodiranje sporočil ob predaji
   field_scm_path_encoding: Pot do kodiranja
   text_scm_path_encoding_note: "Privzeto: UTF-8"
@@ -965,16 +965,16 @@ sl:
   field_root_directory: Korenska mapa
   field_cvs_module: Modul
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Lokalna shramba (npr. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Lokalna shramba (npr. /hgrepo, c:\\hgrepo)"
   text_scm_command: Ukaz
   text_scm_command_version: Verzija
   label_git_report_last_commit: Sporoči zadnje uveljavljanje datotek in map
   text_scm_config: Svoje SCM ukaze lahko nastavite v datoteki config/configuration.yml. Po urejanju prosimo ponovno zaženite aplikacijo.
   text_scm_command_not_available: SCM ukaz ni na voljo. Prosimo preverite nastavitve v upravljalskem podoknu.
 
-  text_git_repository_note: Shramba je prazna in lokalna (npr. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Shramba je prazna in lokalna (npr. /gitrepo, c:\\gitrepo)"
 
-  notice_issue_successful_create: Ustvarjen zahtevek %{id}.
+  notice_issue_successful_create: "Ustvarjen zahtevek %{id}."
   label_between: med
   setting_issue_group_assignment: Dovoli dodeljevanje zahtevka skupinam
   label_diff: diff
@@ -1005,4 +1005,4 @@ sl:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

@@ -552,8 +552,8 @@ fa:
   label_closed_issues: بسته
   label_closed_issues_plural: بسته
   label_x_open_issues_abbr_on_total:
-    zero:  0 باز از %{total}
-    one:   1 باز از %{total}
+    zero:  "0 باز از %{total}"
+    one:   "1 باز از %{total}"
     other: "%{count} باز از %{total}"
   label_x_open_issues_abbr:
     zero:  0 باز
@@ -769,7 +769,7 @@ fa:
   label_sort: جور کرد
   label_ascending: افزایشی
   label_descending: کاهشی
-  label_date_from_to: از %{start} تا %{end}
+  label_date_from_to: "از %{start} تا %{end}"
   label_wiki_content_added: برگه ویکی افزوده شد
   label_wiki_content_updated: برگه ویکی بروز شد
   label_group: دسته
@@ -871,7 +871,7 @@ fa:
   text_length_between: "باید میان %{min} و %{max} نویسه باشد."
   text_tracker_no_workflow: هیچ گردش کاری برای این پیگرد مشخص نشده است
   text_unallowed_characters: نویسه‌های ناپسند
-  text_comma_separated: چند مقدار پذیرفتنی است (با «,» از هم جدا شوند).
+  text_comma_separated: "چند مقدار پذیرفتنی است (با «,» از هم جدا شوند)."
   text_line_separated: چند مقدار پذیرفتنی است (هر مقدار در یک خط).
   text_issues_ref_in_commit_messages: نشانه روی و بستن پیامدها در پیام‌های انباره
   text_issue_added: "پیامد %{id} به دست %{author} گزارش شد."
@@ -963,7 +963,7 @@ fa:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: کدگذاری پیام‌های انباره
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -971,17 +971,17 @@ fa:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1008,4 +1008,4 @@ fa:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

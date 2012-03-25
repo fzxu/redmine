@@ -212,7 +212,7 @@ sv:
   notice_unable_delete_time_entry: Tidloggning kunde inte tas bort.
   notice_issue_done_ratios_updated: "% klart uppdaterade."
   notice_gantt_chart_truncated: "Schemat förminskades eftersom det överskrider det maximala antalet aktiviteter som får visas (%{max})"
-  notice_issue_successful_create: Ärende %{id} skapades.
+  notice_issue_successful_create: "Ärende %{id} skapades."
   
   error_can_t_load_default_data: "Standardkonfiguration gick inte att läsa in: %{value}"
   error_scm_not_found: "Inlägg och/eller revision finns inte i detta versionsarkiv."
@@ -613,8 +613,8 @@ sv:
   label_closed_issues: stängd
   label_closed_issues_plural: stängda
   label_x_open_issues_abbr_on_total:
-    zero:  0 öppna av %{total}
-    one:   1 öppen av %{total}
+    zero:  "0 öppna av %{total}"
+    one:   "1 öppen av %{total}"
     other: "%{count} öppna av %{total}"
   label_x_open_issues_abbr:
     zero:  0 öppna
@@ -833,7 +833,7 @@ sv:
   label_sort: Sortera
   label_descending: Fallande
   label_ascending: Stigande
-  label_date_from_to: Från %{start} till %{end}
+  label_date_from_to: "Från %{start} till %{end}"
   label_wiki_content_added: Wikisida tillagd
   label_wiki_content_updated: Wikisida uppdaterad
   label_group: Grupp
@@ -959,7 +959,7 @@ sv:
   text_status_changed_by_changeset: "Tilldelad i changeset %{value}."
   text_time_logged_by_changeset: "Tilldelad i changeset %{value}."
   text_issues_destroy_confirmation: 'Är du säker på att du vill radera markerade ärende(n) ?'
-  text_issues_destroy_descendants_confirmation: Detta kommer även ta bort %{count} underaktivitet(er).
+  text_issues_destroy_descendants_confirmation: "Detta kommer även ta bort %{count} underaktivitet(er)."
   text_time_entries_destroy_confirmation: Är du säker på att du vill ta bort valda tidloggningar?
   text_select_project_modules: 'Välj vilka moduler som ska vara aktiva för projektet:'
   text_default_administrator_account_changed: Standardadministratörens konto ändrat
@@ -986,7 +986,7 @@ sv:
   text_zoom_in: Zooma in
   text_warn_on_leaving_unsaved: Nuvarande sida innehåller osparad text som kommer försvinna om du lämnar sidan.
   text_scm_path_encoding_note: "Standard: UTF-8"
-  text_mercurial_repository_note: Lokalt versionsarkiv (t.ex. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Lokalt versionsarkiv (t.ex. /hgrepo, c:\\hgrepo)"
   text_scm_command: Kommando
   text_scm_command_version: Version
   text_scm_config: Du kan konfigurera dina scm-kommando i config/configuration.yml. Vänligen starta om applikationen när ändringar gjorts.
@@ -1019,7 +1019,7 @@ sv:
   enumeration_activities: Aktiviteter (tidsuppföljning)
   enumeration_system_activity: Systemaktivitet
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1046,4 +1046,4 @@ sv:
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"

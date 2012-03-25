@@ -149,7 +149,7 @@ cs:
   notice_account_invalid_creditentials: Chybné jméno nebo heslo
   notice_account_password_updated: Heslo bylo úspěšně změněno.
   notice_account_wrong_password: Chybné heslo
-  notice_account_register_done: Účet byl úspěšně vytvořen. Pro aktivaci účtu klikněte na odkaz v emailu, který vám byl zaslán.
+  notice_account_register_done: "Účet byl úspěšně vytvořen. Pro aktivaci účtu klikněte na odkaz v emailu, který vám byl zaslán."
   notice_account_unknown_email: Neznámý uživatel.
   notice_can_t_change_password: Tento účet používá externí autentifikaci. Zde heslo změnit nemůžete.
   notice_account_lost_email_sent: Byl vám zaslán email s intrukcemi jak si nastavíte nové heslo.
@@ -174,7 +174,7 @@ cs:
   notice_unable_delete_version: Nemohu odstanit verzi
   notice_unable_delete_time_entry: Nelze smazat čas ze záznamu.
   notice_issue_done_ratios_updated: Koeficienty dokončení úkolu byly aktualizovány.
-  notice_gantt_chart_truncated: Graf byl oříznut, počet položek přesáhl limit pro zobrazení (%{max})
+  notice_gantt_chart_truncated: "Graf byl oříznut, počet položek přesáhl limit pro zobrazení (%{max})"
   
   error_can_t_load_default_data: "Výchozí konfigurace nebyla nahrána: %{value}"
   error_scm_not_found: "Položka a/nebo revize neexistují v repozitáři."
@@ -192,7 +192,7 @@ cs:
   error_workflow_copy_source: Prosím vyberte zdrojovou frontu nebo roly
   error_workflow_copy_target: Prosím vyberte cílovou frontu(y) a roly(e)
   error_unable_delete_issue_status: Nelze smazat stavy úkolů
-  error_unable_to_connect: Nelze se připojit (%{value})
+  error_unable_to_connect: "Nelze se připojit (%{value})"
   warning_attachments_not_saved: "%{count} soubor(ů) nebylo možné uložit."
   
   mail_subject_lost_password: "Vaše heslo (%{value})"
@@ -355,7 +355,7 @@ cs:
   setting_repository_log_display_limit: Maximální počet revizí zobrazených v logu souboru
   setting_openid: Umožnit přihlašování a registrace s OpenID
   setting_password_min_length: Minimální délka hesla
-  setting_new_project_user_role_id: Role přiřazená uživateli bez práv administrátora, který projekt vytvořil
+  setting_new_project_user_role_id: "Role přiřazená uživateli bez práv administrátora, který projekt vytvořil"
   setting_default_projects_modules: Výchozí zapnutné moduly pro nový projekt
   setting_issue_done_ratio: Spočítat koeficient dokončení úkolu s
   setting_issue_done_ratio_issue_field: Použít pole úkolu
@@ -556,8 +556,8 @@ cs:
   label_closed_issues: uzavřený
   label_closed_issues_plural: uzavřené
   label_x_open_issues_abbr_on_total:
-    zero:  0 otevřených / %{total}
-    one:   1 otevřený / %{total}
+    zero:  "0 otevřených / %{total}"
+    one:   "1 otevřený / %{total}"
     other: "%{count} otevřených / %{total}"
   label_x_open_issues_abbr:
     zero:  0 otevřených
@@ -773,7 +773,7 @@ cs:
   label_sort: Řazení
   label_ascending: Vzestupně
   label_descending: Sestupně
-  label_date_from_to: Od %{start} do %{end}
+  label_date_from_to: "Od %{start} do %{end}"
   label_wiki_content_added: Wiki stránka přidána
   label_wiki_content_updated: Wiki stránka aktualizována
   label_group: Skupina
@@ -792,7 +792,7 @@ cs:
   label_display_used_statuses_only: Zobrazit pouze stavy které jsou použité touto frontou
   label_api_access_key: API přístupový klíč
   label_missing_api_access_key: Chybějící přístupový klíč API
-  label_api_access_key_created_on: API přístupový klíč vytvořen %{value} 
+  label_api_access_key_created_on: "API přístupový klíč vytvořen %{value} "
   label_profile: Profil
   label_subtask_plural: Podúkol
   label_project_copy_notifications: Odeslat email oznámení v průběhu kopie projektu
@@ -855,9 +855,9 @@ cs:
   field_active: Aktivní
   
   text_select_mail_notifications: Vyberte akci při které bude zasláno upozornění emailem.
-  text_regexp_info: např. ^[A-Z0-9]+$
+  text_regexp_info: "např. ^[A-Z0-9]+$"
   text_min_max_length_info: 0 znamená bez limitu
-  text_project_destroy_confirmation: Jste si jisti, že chcete odstranit tento projekt a všechna související data ?
+  text_project_destroy_confirmation: "Jste si jisti, že chcete odstranit tento projekt a všechna související data ?"
   text_subprojects_destroy_warning: "Jeho podprojek(y): %{value} budou také smazány."
   text_workflow_edit: Vyberte roli a frontu k editaci průběhu práce
   text_are_you_sure: Jste si jisti?
@@ -888,7 +888,7 @@ cs:
   text_no_configuration_data: "Role, fronty, stavy úkolů ani průběh práce nebyly zatím nakonfigurovány.\nVelice doporučujeme nahrát výchozí konfiguraci. Po té si můžete vše upravit"
   text_load_default_configuration: Nahrát výchozí konfiguraci
   text_status_changed_by_changeset: "Použito v changesetu %{value}."
-  text_time_logged_by_changeset: Aplikováno v changesetu %{value}.
+  text_time_logged_by_changeset: "Aplikováno v changesetu %{value}."
   text_issues_destroy_confirmation: 'Opravdu si přejete odstranit všechny zvolené úkoly?'
   text_select_project_modules: 'Aktivní moduly v tomto projektu:'
   text_default_administrator_account_changed: Výchozí nastavení administrátorského účtu změněno
@@ -906,7 +906,7 @@ cs:
   text_repository_usernames_mapping: "Vybrat nebo upravit mapování mezi Redmine uživateli a uživatelskými jmény nalezenými v logu repozitáře.\nUživatelé se shodným Redmine uživatelským jménem a uživatelským jménem v repozitáři jsou mapovaní automaticky."
   text_diff_truncated: '... Rozdílový soubor je zkrácen, protože jeho délka přesahuje max. limit.'
   text_custom_field_possible_values_info: 'Každá hodnota na novém řádku'
-  text_wiki_page_destroy_question: Tato stránka má %{descendants} podstránek a potomků. Co chcete udělat?
+  text_wiki_page_destroy_question: "Tato stránka má %{descendants} podstránek a potomků. Co chcete udělat?"
   text_wiki_page_nullify_children: Ponechat podstránky jako kořenové stránky
   text_wiki_page_destroy_children: Smazat podstránky a všechny jejich potomky
   text_wiki_page_reassign_children: Přiřadit podstránky k tomuto rodiči
@@ -964,7 +964,7 @@ cs:
   field_is_private: Private
   permission_set_issues_private: Set issues public or private
   label_issues_visibility_public: All non private issues
-  text_issues_destroy_descendants_confirmation: This will also delete %{count} subtask(s).
+  text_issues_destroy_descendants_confirmation: "This will also delete %{count} subtask(s)."
   field_commit_logs_encoding: Kódování zpráv při commitu
   field_scm_path_encoding: Path encoding
   text_scm_path_encoding_note: "Default: UTF-8"
@@ -972,17 +972,17 @@ cs:
   field_root_directory: Root directory
   field_cvs_module: Module
   field_cvsroot: CVSROOT
-  text_mercurial_repository_note: Local repository (e.g. /hgrepo, c:\hgrepo)
+  text_mercurial_repository_note: "Local repository (e.g. /hgrepo, c:\\hgrepo)"
   text_scm_command: Command
   text_scm_command_version: Version
   label_git_report_last_commit: Report last commit for files and directories
   text_scm_config: You can configure your scm commands in config/configuration.yml. Please restart the application after editing it.
   text_scm_command_not_available: Scm command is not available. Please check settings on the administration panel.
-  notice_issue_successful_create: Issue %{id} created.
+  notice_issue_successful_create: "Issue %{id} created."
   label_between: between
   setting_issue_group_assignment: Allow issue assignment to groups
   label_diff: diff
-  text_git_repository_note: Repository is bare and local (e.g. /gitrepo, c:\gitrepo)
+  text_git_repository_note: "Repository is bare and local (e.g. /gitrepo, c:\\gitrepo)"
   description_query_sort_criteria_direction: Sort direction
   description_project_scope: Search scope
   description_filter: Filter
@@ -1002,11 +1002,11 @@ cs:
   description_selected_columns: Selected Columns
   label_parent_revision: Parent
   label_child_revision: Child
-  error_scm_annotate_big_text_file: The entry cannot be annotated, as it exceeds the maximum text file size.
+  error_scm_annotate_big_text_file: "The entry cannot be annotated, as it exceeds the maximum text file size."
   setting_default_issue_start_date_to_creation_date: Use current date as start date for new issues
   button_edit_section: Edit this section
   setting_repositories_encodings: Attachments and repositories encodings
   description_all_columns: All Columns
   button_export: Export
   label_export_options: "%{export_format} export options"
-  error_attachment_too_big: This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})
+  error_attachment_too_big: "This file cannot be uploaded because it exceeds the maximum allowed file size (%{max_size})"
