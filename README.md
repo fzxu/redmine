@@ -6,7 +6,8 @@ More details can be found in the doc directory or on the official website http:/
 
 ## Make Redmine work with ruby 1.9.3 and Rails 2.3.14
 
-## Using the exact same installation guild: http://www.redmine.org/projects/redmine/wiki/RedmineInstall
+## Using the exact same installation guild: 
+http://www.redmine.org/projects/redmine/wiki/RedmineInstall
 
 Tested with Postgresql, you can try other DBs for sure.
 
