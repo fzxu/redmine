@@ -1,0 +1,2 @@
+module GanttsHelper
+end
